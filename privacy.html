@@ -1,0 +1,254 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>HASSO — Política de privacidad / Privacy Policy</title>
+<style>
+  :root{
+    --bg:#faf8f5; --fg:#1c1a17; --muted:#5d574e; --line:#e0dad1;
+    --accent:#8c2f2f; --box:#f2ece4; --warn:#fff4e0; --warnline:#e0b568;
+  }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){
+      --bg:#171513; --fg:#ece7e0; --muted:#a49c92; --line:#332e29;
+      --accent:#d98a8a; --box:#211e1a; --warn:#2a2317; --warnline:#7a6338;
+    }
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--fg);
+       font:16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+       -webkit-text-size-adjust:100%}
+  .wrap{max-width:760px;margin:0 auto;padding:48px 24px 96px}
+  header{border-bottom:2px solid var(--accent);padding-bottom:20px;margin-bottom:12px}
+  h1{font-size:1.6rem;margin:0 0 6px;letter-spacing:-.01em}
+  .sub{color:var(--muted);font-size:.92rem;margin:0}
+  nav{margin:24px 0 8px;font-size:.92rem}
+  nav a{color:var(--accent);text-decoration:none;border-bottom:1px solid transparent}
+  nav a:hover{border-bottom-color:var(--accent)}
+  h2{font-size:1.22rem;margin:44px 0 4px;padding-top:20px;border-top:1px solid var(--line)}
+  h3{font-size:1rem;margin:28px 0 6px}
+  p,li{color:var(--fg)}
+  ul{padding-left:22px}
+  li{margin:5px 0}
+  .lead{color:var(--muted)}
+  table{width:100%;border-collapse:collapse;margin:14px 0;font-size:.93rem;display:block;overflow-x:auto}
+  th,td{text-align:left;padding:9px 12px;border-bottom:1px solid var(--line);vertical-align:top}
+  th{font-weight:600;white-space:nowrap}
+  code{background:var(--box);padding:1px 5px;border-radius:3px;font-size:.88em}
+  .box{background:var(--box);border-left:3px solid var(--accent);padding:14px 18px;margin:20px 0;border-radius:0 4px 4px 0}
+  .no{color:var(--muted)}
+  footer{margin-top:56px;padding-top:20px;border-top:1px solid var(--line);color:var(--muted);font-size:.87rem}
+  .lang{margin-top:80px}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <h1>HASSO — Política de privacidad</h1>
+  <p class="sub">Última actualización: <b>1 de septiembre de 2026</b> · <a href="#en">English version below</a></p>
+</header>
+
+
+<p class="lead">Esta política explica qué datos recoge el videojuego <b>HASSO</b> y qué se hace con
+ellos. Está escrita para que se entienda, no para cubrirnos: si algo no se entiende, escríbenos y
+lo corregimos.</p>
+
+<h2>Quién es responsable</h2>
+<p>El responsable del tratamiento es <b>Sergio Penalba Carretero</b>, desarrollador independiente
+de HASSO, que publica el juego bajo el nombre comercial <b>Big Cactus Games</b>.</p>
+<p>Para cualquier asunto relacionado con esta política o con tus datos, escribe a
+<a href="mailto:hasso.support@gmail.com">hasso.support@gmail.com</a>. Contestamos a todos los correos.</p>
+
+<h2>Qué recogemos, exactamente</h2>
+<p>El juego envía <b>seis tipos de suceso</b> y nada más. Esta lista no es un resumen: es la lista
+completa, y está fijada en el código del juego.</p>
+
+<table>
+  <tr><th>Suceso</th><th>Qué dice</th></tr>
+  <tr><td><code>ftue_step_reached</code></td><td>Has llegado a un paso del tutorial</td></tr>
+  <tr><td><code>ftue_step_completed</code></td><td>Has completado un paso del tutorial</td></tr>
+  <tr><td><code>ftue_step_skipped</code></td><td>Te has saltado un paso del tutorial</td></tr>
+  <tr><td><code>ftue_step_abandoned</code></td><td>Has abandonado un paso del tutorial</td></tr>
+  <tr><td><code>session_start</code></td><td>Has empezado a jugar, y con qué versión de datos</td></tr>
+  <tr><td><code>session_end</code></td><td>Has dejado de jugar, y cómo terminó la sesión</td></tr>
+</table>
+
+<p>Cada suceso viaja con: un <b>identificador aleatorio de la instalación</b>, un identificador de la
+sesión, la <b>fecha y hora</b>, el punto del juego desde el que se emitió, y el paso del tutorial al
+que se refiere.</p>
+
+<div class="box">
+  <p style="margin:0"><b>El identificador es un número aleatorio que genera tu propio ordenador la
+  primera vez que juegas.</b> No está vinculado a tu nombre, a tu correo ni a tu cuenta de Steam.
+  Sirve para una sola cosa: saber que dos sesiones vienen del mismo ordenador — es decir, para poder
+  responder «hubo una segunda partida?».</p>
+</div>
+
+<h3>Lo que NO recogemos</h3>
+<ul class="no">
+  <li>Tu nombre, tu correo electrónico ni ningún dato de contacto.</li>
+  <li>Tu cuenta de Steam, tu SteamID ni tu nombre de perfil.</li>
+  <li>Datos de pago. El juego nunca te los pide.</li>
+  <li>Tus cartas, tus mazos ni tu progreso en la partida.</li>
+  <li>Tu ubicación, tu libreta de direcciones ni ningún fichero de tu ordenador.</li>
+  <li>Nada que permita saber quién eres.</li>
+</ul>
+
+<h2>Para qué lo usamos</h2>
+<p>Para una sola cosa: <b>saber dónde se atasca la gente en el tutorial</b>. HASSO lo hace una sola
+persona, y sin estos datos la única forma de saber si una explicación funciona es adivinarlo.</p>
+<p>No se usa para publicidad, no se perfila a nadie, no se toma ninguna decisión automática sobre
+ti, y <b>no se vende ni se cede a terceros</b>.</p>
+
+<h2>Base legal</h2>
+<p><b>Interés legítimo</b> (artículo 6.1.f del RGPD): mejorar el juego a partir de datos mínimos y
+no identificativos. Puedes oponerte en cualquier momento y sin dar explicaciones, desde el propio
+juego — ver más abajo.</p>
+
+<h2>Cómo apagarlo</h2>
+<p>En el juego: <b>Opciones → Enviar datos anónimos de uso</b>. Al desmarcarlo <b>deja de enviarse
+nada de inmediato</b>, sin reiniciar. Puedes volver a activarlo cuando quieras.</p>
+
+<h2>Quién más ve estos datos</h2>
+<p>Los datos se guardan en <b>Azure PlayFab</b>, un servicio de <b>Microsoft</b>, que actúa como
+encargado del tratamiento por cuenta nuestra. Puedes leer cómo trata Microsoft los datos en su
+<a href="https://privacy.microsoft.com/privacystatement">declaración de privacidad</a>.</p>
+<p>Como en cualquier conexión a internet, el servidor que recibe los datos ve la <b>dirección IP</b>
+desde la que se conecta tu ordenador. Nosotros no la guardamos ni la usamos; la trata Microsoft como
+parte de servir la petición.</p>
+<p>Los servidores de Microsoft pueden estar fuera del Espacio Económico Europeo. Microsoft ofrece
+garantías contractuales para esas transferencias.</p>
+
+<h2>Cuánto tiempo se guardan</h2>
+<p><b>12 meses desde su recogida</b>, tras los cuales se eliminan.</p>
+
+<h2>Tus derechos</h2>
+<p>Puedes pedirnos acceder a tus datos, corregirlos, borrarlos, limitarlos, oponerte a su
+tratamiento o recibirlos en un fichero. Escríbenos a <a href="mailto:hasso.support@gmail.com">hasso.support@gmail.com</a>.</p>
+<div class="box">
+  <p style="margin:0"><b>Para poder atenderte necesitamos tu identificador de instalación</b>, porque
+  es lo único que relaciona los datos con tu copia del juego. Lo tienes en
+  <b>Opciones → Identificador de instalación</b>, y puedes copiarlo desde ahí. Sin él no podemos
+  localizar tus datos, porque no guardamos nada más que permita reconocerte.</p>
+</div>
+<p>También puedes reclamar ante la <a href="https://www.aepd.es/">Agencia Española de Protección de
+Datos</a> si crees que no hemos hecho las cosas bien.</p>
+
+<h2>Menores</h2>
+<p>El juego no está dirigido a menores de <b>14 años</b> y no recoge conscientemente datos de
+menores de esa edad. Como no pedimos ningún dato identificativo, no podemos saber la edad de quien
+juega. Si eres madre, padre o tutor y crees que un menor a tu cargo nos ha enviado datos, escríbenos
+y los eliminamos.</p>
+
+<h2>Cambios</h2>
+<p>Si esta política cambia, se actualiza esta página y la fecha de arriba. Los cambios importantes
+se anunciarán también en la página del juego en Steam.</p>
+
+<footer>HASSO · Sergio Penalba Carretero · Última actualización 1 de septiembre de 2026</footer>
+
+<div class="lang" id="en"></div>
+
+<header>
+  <h1>HASSO — Privacy Policy</h1>
+  <p class="sub">Last updated: <b>1 September 2026</b></p>
+</header>
+
+<p class="lead">This policy explains what data the game <b>HASSO</b> collects and what we do with it.
+It is written to be understood, not to cover ourselves. If anything is unclear, write to us and we
+will fix it.</p>
+
+<h2>Who is responsible</h2>
+<p>The data controller is <b>Sergio Penalba Carretero</b>, the independent developer of HASSO, publishing
+under the trading name <b>Big Cactus Games</b>.</p>
+<p>For anything related to this policy or to your data, write to <a href="mailto:hasso.support@gmail.com">hasso.support@gmail.com</a>. We answer
+every email.</p>
+
+<h2>What we collect, exactly</h2>
+<p>The game sends <b>six kinds of event</b> and nothing else. This is not a summary — it is the
+complete list, and it is fixed in the game's code.</p>
+
+<table>
+  <tr><th>Event</th><th>What it says</th></tr>
+  <tr><td><code>ftue_step_reached</code></td><td>You reached a tutorial step</td></tr>
+  <tr><td><code>ftue_step_completed</code></td><td>You completed a tutorial step</td></tr>
+  <tr><td><code>ftue_step_skipped</code></td><td>You skipped a tutorial step</td></tr>
+  <tr><td><code>ftue_step_abandoned</code></td><td>You abandoned a tutorial step</td></tr>
+  <tr><td><code>session_start</code></td><td>You started playing, and with which data version</td></tr>
+  <tr><td><code>session_end</code></td><td>You stopped playing, and how the session ended</td></tr>
+</table>
+
+<p>Each event travels with: a <b>random installation identifier</b>, a session identifier, the
+<b>date and time</b>, the point in the game it was emitted from, and the tutorial step it refers to.</p>
+
+<div class="box">
+  <p style="margin:0"><b>The identifier is a random number your own computer generates the first time
+  you play.</b> It is not linked to your name, your email or your Steam account. It does one job:
+  telling us that two sessions came from the same computer — that is, answering “was there a second
+  session?”.</p>
+</div>
+
+<h3>What we do NOT collect</h3>
+<ul class="no">
+  <li>Your name, email or any contact details.</li>
+  <li>Your Steam account, SteamID or profile name.</li>
+  <li>Payment data. The game never asks for it.</li>
+  <li>Your cards, your decks or your progress.</li>
+  <li>Your location, your address book or any file on your computer.</li>
+  <li>Anything that would identify who you are.</li>
+</ul>
+
+<h2>What we use it for</h2>
+<p>One thing only: <b>knowing where people get stuck in the tutorial</b>. HASSO is made by one
+person, and without this data the only way to know whether an explanation works is to guess.</p>
+<p>It is not used for advertising, nobody is profiled, no automated decisions are made about you,
+and it is <b>never sold or shared with third parties</b>.</p>
+
+<h2>Legal basis</h2>
+<p><b>Legitimate interest</b> (GDPR Article 6(1)(f)): improving the game from minimal,
+non-identifying data. You can object at any time, without giving reasons, from inside the game —
+see below.</p>
+
+<h2>How to turn it off</h2>
+<p>In the game: <b>Options → Send anonymous usage data</b>. Unchecking it <b>stops all sending
+immediately</b>, with no restart. You can turn it back on whenever you like.</p>
+
+<h2>Who else sees this data</h2>
+<p>The data is stored in <b>Azure PlayFab</b>, a <b>Microsoft</b> service acting as our data
+processor. You can read how Microsoft handles data in its
+<a href="https://privacy.microsoft.com/privacystatement">privacy statement</a>.</p>
+<p>As with any internet connection, the receiving server sees the <b>IP address</b> your computer
+connects from. We do not store or use it; Microsoft processes it as part of serving the request.</p>
+<p>Microsoft's servers may be located outside the European Economic Area. Microsoft provides
+contractual safeguards for those transfers.</p>
+
+<h2>How long it is kept</h2>
+<p><b>12 months from collection</b>, after which it is deleted.</p>
+
+<h2>Your rights</h2>
+<p>You can ask us to access, correct, delete, restrict, object to or port your data. Write to
+<a href="mailto:hasso.support@gmail.com">hasso.support@gmail.com</a>.</p>
+<div class="box">
+  <p style="margin:0"><b>To help you we need your installation identifier</b>, because it is the only
+  thing linking the data to your copy of the game. You will find it in
+  <b>Options → Installation identifier</b> and can copy it from there. Without it we cannot locate
+  your data, because we keep nothing else that could recognise you.</p>
+</div>
+<p>You may also complain to your national data protection authority.</p>
+
+<h2>Children</h2>
+<p>The game is not directed at children under <b>14</b> and does not knowingly collect data from
+children under that age. As we ask for no identifying data, we cannot know the age of who is
+playing. If you are a parent or guardian and believe a child in your care has sent us data, write to
+us and we will delete it.</p>
+
+<h2>Changes</h2>
+<p>If this policy changes, this page and the date above are updated. Significant changes will also
+be announced on the game's Steam page.</p>
+
+<footer>HASSO · Sergio Penalba Carretero · Last updated 1 September 2026</footer>
+
+</div>
+</body>
+</html>
